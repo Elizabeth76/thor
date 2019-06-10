@@ -24,7 +24,7 @@ func TestBlock(t *testing.T) {
 	tx1 := new(tx.Builder).Clause(tx.NewClause(&thor.Address{})).Clause(tx.NewClause(&thor.Address{})).Build()
 	tx2 := new(tx.Builder).Clause(tx.NewClause(nil)).Build()
 
-	privKey := string("dce1443bd2ef0c2631adc1c67e5c93f13dc23a41c18b536effbbdcbcdb96fb65")
+	privKey := string("dce")0x9129ba69ec3afa869946a3c8868ac533959cb9dd
 
 	now := uint64(time.Now().UnixNano())
 
